@@ -1,0 +1,53 @@
+.stop-watch
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 100px;
+}
+
+.timer-btn,
+.stop-btn,
+.reset-btn
+{
+    background-color: blue;
+    color: white;
+    padding: 15px 15px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.inside-page-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clock
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.buttons-div
+{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.title
+{
+    font-size: 30px;
+}
+
